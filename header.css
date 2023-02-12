@@ -1,0 +1,48 @@
+.first_page{
+    background-image: url(/Portfolio_3/images/page1_bg.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 40px;
+    color: #fff;
+    
+}
+
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  header h1 span{
+    color: #d00042;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+
+    
+  }
+  

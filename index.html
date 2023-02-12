@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://kit.fontawesome.com/e1688b77c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Portfolio_3/styles/content.css">
+    <link rel="stylesheet" href="/Portfolio_3/styles/header.css">
+    <link rel="stylesheet" href="/Portfolio_3/styles/about_us.css">
+    <link rel="stylesheet" href="/Portfolio_3/styles/servises.css">
+    <link rel="stylesheet" href="/Portfolio_3/styles/contact.css">
+    <style>
+        
+        html{
+          scroll-behavior: smooth;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Playfair Display;
+            box-sizing: border-box;
+
+        }
+       
+        @media screen and (max-width: 1020px) {
+            
+            .first_page {
+              width: 100%;
+              height: auto;
+              min-height: 100vh;
+            }
+          }
+          
+    </style>
+</head>
+<body style="height: auto; min-width:100vh;">
+    <div class="first_page">
+        <header>
+            <h1>Portfo<span>lio</span></h1>
+            <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <section id="info">
+            
+                <div class="info-content">
+                    <h4>Hello, my name is</h4>
+                    <h1 class="my-name">Yassine <span>El hamdaoui</span></h1>
+                    <h3 class="job">I'm a Computer Science Student.<br>and i can build you a wonderful Website </h3>
+                    <div class="social-icons">
+                        <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                        <i class="fa fa-github"></i>
+                        </a>
+                        <a href="#">
+                        <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                        <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+              </section>
+              <form>
+                <div class="form">
+                  <label for="username">Username:</label>
+                  <input type="text" id="username" placeholder="Enter your name" name="username">
+                </div>
+                <div>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" placeholder="Enter your email" name="email">
+                </div>
+                <div class="btn">
+                  <input type="submit" value="Submit">
+                </div>
+              </form>
+        </div>
+          
+    </div>
+    <!-- about us section and shit -->
+    <section id="about">
+        <div class="main">
+            <img src="/Portfolio_3/images/my-pic.jpg" alt="my pic">
+            <div class="about-me-text">
+                <h2>About Me</h2>
+                <h5>Engineering <span>Student</span></h5>
+                <p>
+                    Im a computer science student, I possess a passion for technology 
+                    and a talent for programming. My analytical mindset and programming skills have helped me stand out in my field
+                    , and I constantly strive to improve and push the boundaries of what is possible. My personal website serves as a platform to showcase my skills, 
+                    share my projects and thoughts on technology, and connect with others in the industry.
+                </p>
+                <button>Let's Talk</button>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+      <h2>Services</h2>
+      <div class="box">
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="information">
+            <h3>
+              Web <span>Developing</span>
+            </h3>
+            <p>
+                Front-end web development is all about creating the look and feel of websites and web apps. It's all about making sure a website is visually appealing and easy to use for visitors. 
+
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-bell"></i>
+          </div>
+          <div class="information">
+            <h3>
+              Web <span>Developing</span>
+            </h3>
+            <p>
+                Front-end web development is all about creating the look and feel of websites and web apps. It's all about making sure a website is visually appealing and easy to use for visitors. 
+
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-bars"></i>
+
+          </div>
+          <div class="information">
+            <h3>
+              Web <span>Developing</span>
+            </h3>
+            <p>
+                Front-end web development is all about creating the look and feel of websites and web apps. It's all about making sure a website is visually appealing and easy to use for visitors. 
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact me section -->
+      <section id="contact">
+        <div class="title">
+         <h2>Contact Me</h2>
+
+        </div>
+        <div class="contacts">
+          <div class="care">
+            <div class="cont"><span>0720022623</span></div>
+            <div class="icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="care">
+            <div class="cont"><span>elhamdaouiy288@gmail.com</span></div>
+            <div class="icons"><i class="fa-solid fa-envelope"></i></div>
+          </div>
+        </div>
+      </section>
+      
+    
+      
+</body>
+</html>

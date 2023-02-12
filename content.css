@@ -1,0 +1,120 @@
+
+#info {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .info-content {
+    position: absolute;
+    top: 30%;
+    left: 40px;
+  }
+  .info-content h4{
+    color: white;
+    font-size: 25px;
+  }
+  .my-name{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .my-name span{
+    color: #d00042;
+  }
+  .job{
+
+    color: #ba5e7b;
+    font-size: 20px;
+    font-style: italic;
+    background-color: rgba(182, 180, 180, 0.208);
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 10px;
+    
+  }
+  
+  .social-icons {
+    margin-top: 30px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #d00042;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #0077b5;
+    transform: scale(1.2);
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    right: 40px;
+  }
+  
+  label, input[type="text"], input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  #email ,#username{
+    border-radius: 30px;
+    border-color: black ;
+    border-style: solid;
+    /* box-shadow: 0px 0px 4px black; */
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #d00042;
+  }
+  
+  input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #d00042;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    transition: transform 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    transform: scale(1.1);
+    /* box-shadow: 0px 0px 4px black; */
+
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+
+  }
+  @media screen and (max-width: 1020px) {
+    #info {
+      flex-direction: column;
+    }
+    form {
+      position: static;
+      top: unset;
+      right: unset;
+      margin-top: 30px;
+    }
+    
+  }
+  
